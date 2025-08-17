@@ -17,7 +17,10 @@ export default function Header() {
   ];
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="flex items-center justify-between bg-white shadow-md md:justify-between ">
+    <header
+      className="flex items-center justify-between bg-gray-200 shadow-md md:justify-between"
+      style={{ padding: "10px 20px" }}
+    >
       {/* Mobile screen */}
       <div
         className="flex items-end justify-start w-full px-4 md:hidden"
@@ -32,8 +35,8 @@ export default function Header() {
             alt="menu--v7"
           />
         </button>
-        {/* Dropdown menu mobile screen*/}
 
+        {/* Dropdown menu mobile screen*/}
         <div
           id="menu"
           className={`absolute top-0 left-0 w-64 h-full bg-gray-300 shadow-lg flex flex-col items-start rounded-sm p-4 md:hidden
@@ -85,7 +88,7 @@ export default function Header() {
       >
         <a href="#">
           <img
-            src="/Logonotext.svg"
+            src="/logonotexto.svg"
             alt="Hải Đăng Cara Logo"
             width={50}
             height={50}
@@ -95,7 +98,11 @@ export default function Header() {
           style={{ marginLeft: 15, marginRight: 10 }}
           className="ml-5 text-gray-800"
         >
-          Đăng Cara
+          <p>
+            <strong>HẢI ĐĂNG </strong>
+            <br />
+            <span className="text-sm text-gray-600">Bất động sản </span>
+          </p>
         </span>
       </div>
 
@@ -107,7 +114,7 @@ export default function Header() {
             href={item.href}
             target={item.target}
             rel={item.rel}
-            className="text-gray-900 transition-colors hover:text-blue-500"
+            className="text-gray-900 transition-all duration-300 hover:text-blue-500 :hover:transform hover:scale-105 trnasition-transform"
             style={{ marginLeft: "10px", marginRight: "10px" }}
           >
             {item.label}

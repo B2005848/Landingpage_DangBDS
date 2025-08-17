@@ -1,6 +1,6 @@
 // app/page.tsx
 
-// import HeroSection from "./components/HeroSection";
+import HeroSection from "./components/HeroSection";
 // import Services from "./components/Services";
 // import Advertise from "./components/Advertise";
 // import About from "./components/About";
@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div>
       {/* Uncomment the components below to include them in the page */}
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <Services /> */}
       {/* <Advertise /> */}
       {/* <About /> */}
