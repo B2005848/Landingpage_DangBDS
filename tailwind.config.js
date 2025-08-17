@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { heroui } from "@heroui/react";
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,5 +9,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [heroui()],
 };

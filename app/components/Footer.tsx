@@ -20,9 +20,7 @@ export default function Footer() {
 
         {/* Cột 2 - Liên kết nhanh */}
         <div>
-          <h3 className="mb-4 text-xl font-semibold animate__slow 1.5s animate__animated animate__bounce animate__infinite infinite">
-            Liên kết
-          </h3>
+          <h3 className="mb-4 text-xl font-semibold ">Liên kết</h3>
           <ul>
             <li>
               <a href="#features" className="hover:text-yellow-400">

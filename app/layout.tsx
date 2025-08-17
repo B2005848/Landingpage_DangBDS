@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./styles/globals.css";
 import { Be_Vietnam_Pro } from "next/font/google";
-
+import { Providers } from "./providers";
 const BeVNPro = Be_Vietnam_Pro({
   subsets: ["latin"], // bộ ký tự
   weight: ["400", "500", "700"], // độ đậm
@@ -28,15 +28,19 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        {/* icon */}
+        <link rel="shortcut icon" href="Logonotext.svg" type="image/x-icon" />
       </head>
 
       <body className={`${BeVNPro.className} pt-16`}>
-        <Header />
-        {/* <div className="animate__animated animate__tada animate__infinite infinite">
+        <Providers>
+          <Header />
+          {/* <div className="animate__animated animate__tada animate__infinite infinite">
           Example
         </div> */}
-        {children}
-        <Footer />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
