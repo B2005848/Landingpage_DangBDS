@@ -39,7 +39,7 @@ export default function Header() {
         {/* Dropdown menu mobile screen*/}
         <div
           id="menu"
-          className={`absolute top-0 left-0 w-64 h-full bg-gray-300 shadow-lg flex flex-col items-start rounded-sm p-4 md:hidden
+          className={`absolute top-0 left-0 w-64 h-full bg-gray-300 shadow-lg flex flex-col items-start rounded-sm p-4 z-50  md:hidden
           transform transition-transform duration-300 ease-in-out
           ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
         >

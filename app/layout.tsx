@@ -35,9 +35,8 @@ export default function RootLayout({
         {/* <div className="animate__animated animate__tada animate__infinite infinite">
           Example
         </div> */}
-
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
