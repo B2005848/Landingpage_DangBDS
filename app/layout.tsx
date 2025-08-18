@@ -35,9 +35,6 @@ export default function RootLayout({
       <body className={`${BeVNPro.className} pt-16`}>
         <Providers>
           <Header />
-          {/* <div className="animate__animated animate__tada animate__infinite infinite">
-          Example
-        </div> */}
           {children}
           <Footer />
         </Providers>

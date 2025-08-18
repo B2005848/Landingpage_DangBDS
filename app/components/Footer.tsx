@@ -23,11 +23,6 @@ export default function Footer() {
           <h3 className="mb-4 text-xl font-semibold ">Liên kết</h3>
           <ul>
             <li>
-              <a href="#features" className="hover:text-yellow-400">
-                Điểm nổi bật
-              </a>
-            </li>
-            <li>
               <a href="#gallery" className="hover:text-yellow-400">
                 Hình ảnh
               </a>
@@ -38,7 +33,11 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-yellow-400">
+              <a
+                href="https://www.facebook.com/profile.php?id=61578326949869"
+                target="_blank"
+                className="hover:text-yellow-400"
+              >
                 Liên hệ
               </a>
             </li>
@@ -53,8 +52,10 @@ export default function Footer() {
             Ninh Kiều, Cần Thơ, Việt Nam
           </p>
           <p className="text-gray-50">
-            <strong>Điện thoại:</strong> (039) 944 9731
+            <strong>Điện thoại: </strong>
+            {"(039) 944 9731"}
           </p>
+
           <p className="text-gray-50">
             <strong>Email: </strong> haidanggiangthanh@gmail.com
           </p>
@@ -70,8 +71,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          &copy; 2025 SOYVN - Web Design & Digital Branding. All rights
-          reserved.
+          © 2025 SOYVN - Web Design & Digital Branding. All rights reserved.
         </a>
       </div>
     </footer>

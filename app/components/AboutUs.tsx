@@ -14,7 +14,7 @@ export default function AboutUs() {
           </h1>
           <Image src="/gachchanhr.svg" alt="symboys" width={200} />
         </div>
-        <div className="text-gray-700">
+        <div className="text-gray-800">
           <p className="paragraph">
             Xin chào! Tôi là <strong> Hải Đăng</strong>, hiện đang công tác tại
             <strong> Cara Group</strong> – đơn vị uy tín trong lĩnh vực{" "}
@@ -38,14 +38,8 @@ export default function AboutUs() {
             Giá dao động <strong> TỪ 1,7 TỶ/CĂN </strong>(1PN)
           </p>
         </div>
-        <hr
-          className="text-gray-500"
-          style={{ marginTop: "15px", marginBottom: "15px" }}
-        />
-        <h2
-          className="text-3xl font-bold text-blue-400"
-          style={{ marginTop: "15px", marginBottom: "15px" }}
-        >
+        <hr className="text-gray-500 mt-[15px] mb-[15px]" />
+        <h2 className="text-3xl font-bold text-blue-400 mt-[15px] mb-[15px] ml-5">
           CẤU TRÚC VÀ SẢN PHẨM
         </h2>
 
@@ -54,7 +48,12 @@ export default function AboutUs() {
           <div className="flex flex-col items-center gap-6 cl-1">
             {/* Diện tích dự án */}
             <div className="flex flex-col items-center gap-2 text-center">
-              <Image src="/dientichduan.webp" alt="" width={100} />
+              <Image
+                className="imgReveal"
+                src="/dientichduan.webp"
+                alt=""
+                width={100}
+              />
               <h3 className="text-2xl text-gray-600">DIỆN TÍCH</h3>
               <h4>
                 3.090 m <sup>2</sup>
@@ -63,7 +62,12 @@ export default function AboutUs() {
 
             {/* Số lượng căn hộ */}
             <div className="flex flex-col items-center gap-2 text-center">
-              <Image src="/tongcanho.webp" alt="" width={100} />
+              <Image
+                className="imgReveal"
+                src="/tongcanho.webp"
+                alt=""
+                width={100}
+              />
               <h3 className="text-2xl text-gray-600">TỔNG CĂN HỘ</h3>
               <h4>2 tháp (165 căn hộ/tòa)</h4>
             </div>
@@ -73,14 +77,24 @@ export default function AboutUs() {
           <div className="flex flex-col items-center gap-6 cl-2">
             {/* Quy mô */}
             <div className="flex flex-col items-center gap-2 text-center">
-              <Image src="/quymo.webp" alt="" width={100} />
+              <Image
+                className="imgReveal"
+                src="/quymo.webp"
+                alt=""
+                width={100}
+              />
               <h3 className="text-2xl text-gray-600">QUY MÔ</h3>
               <h4>2 tòa tháp - 20 tầng</h4>
             </div>
 
             {/* Diện tích căn hộ */}
             <div className="flex flex-col items-center gap-2 text-center">
-              <Image src="/dtcanho.webp" alt="" width={100} />
+              <Image
+                className="imgReveal"
+                src="/dtcanho.webp"
+                alt=""
+                width={100}
+              />
               <h3 className="text-2xl text-gray-600">DIỆN TÍCH CĂN HỘ</h3>
               <h4>
                 từ 39-45 m <sup>2</sup>

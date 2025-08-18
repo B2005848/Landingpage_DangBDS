@@ -18,7 +18,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="px-8 py-20 bg-white rounded-lg ">
+    <section className="bg-white rounded-lg ">
       <div className="flex flex-col items-center justify-between img-container md:flex-row ">
         <div style={{ marginTop: 5 }} className="div1">
           <Image
@@ -32,22 +32,10 @@ export default function HeroSection() {
         </div>
 
         {/* form đăng ký */}
-        <div
-          style={{
-            marginTop: 15,
-            padding: 15,
-            backgroundColor: "#D3D3D3",
-            borderRadius: "14px",
-          }}
-        >
+        <div className="mt-[15px] p-5 bg-[#D3D3D3] rounded-[14px]">
           <Form
             onSubmit={onSubmit}
-            className="w-full shadow bg-gray-50 "
-            style={{
-              padding: 15,
-              backgroundColor: "#DCDCDC",
-              borderRadius: "14px",
-            }}
+            className="w-full shadow bg-[#DCDCDC] p-5 rounded-[14px]"
           >
             <h3 className="flex mb-4 text-2xl font-bold text-center">
               ĐĂNG KÍ NHẬN THÔNG TIN

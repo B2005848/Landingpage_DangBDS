@@ -1,0 +1,15 @@
+.imgReveal {
+  animation: imageReveal both;
+  animation-timeline: view(50% 20%);
+}
+
+@keyframes imageReveal {
+  from {
+    opacity: 0;
+    transform: translateX(-50px) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) translateX(0);
+  }
+}
