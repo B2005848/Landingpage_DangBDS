@@ -6,10 +6,15 @@ export default function AboutUs() {
     <section id="AboutUs" style={{ marginTop: "15px" }}>
       <div>
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold text-blue-400">GIỚI THIỆU CHUNG</h1>
+          <h1
+            className="text-4xl font-bold text-blue-400"
+            style={{ marginTop: "15px", marginBottom: "15px" }}
+          >
+            GIỚI THIỆU CHUNG
+          </h1>
           <Image src="/gachchanhr.svg" alt="symboys" width={200} />
         </div>
-        <div>
+        <div className="text-gray-700">
           <p className="paragraph">
             Xin chào! Tôi là <strong> Hải Đăng</strong>, hiện đang công tác tại
             <strong> Cara Group</strong> – đơn vị uy tín trong lĩnh vực{" "}
@@ -29,8 +34,14 @@ export default function AboutUs() {
               <strong>an cư và đầu tư lâu dài</strong>.
             </strong>
           </p>
+          <p className="paragraph">
+            Giá dao động <strong> TỪ 1,7 TỶ/CĂN </strong>(1PN)
+          </p>
         </div>
-
+        <hr
+          className="text-gray-500"
+          style={{ marginTop: "15px", marginBottom: "15px" }}
+        />
         <h2
           className="text-3xl font-bold text-blue-400"
           style={{ marginTop: "15px", marginBottom: "15px" }}
@@ -64,7 +75,7 @@ export default function AboutUs() {
             <div className="flex flex-col items-center gap-2 text-center">
               <Image src="/quymo.webp" alt="" width={100} />
               <h3 className="text-2xl text-gray-600">QUY MÔ</h3>
-              <h4>2 tòa tháp - 21 tầng</h4>
+              <h4>2 tòa tháp - 20 tầng</h4>
             </div>
 
             {/* Diện tích căn hộ */}

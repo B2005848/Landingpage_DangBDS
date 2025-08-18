@@ -4,7 +4,7 @@ import HeroSection from "./components/HeroSection";
 // import Services from "./components/Services";
 import Advertise from "./components/Advertise";
 import AboutUs from "./components/AboutUs";
-// import Location from "./components/Location";
+import Location from "./components/Location";
 
 export default function Page() {
   return (
@@ -13,8 +13,8 @@ export default function Page() {
       <Advertise />
       <HeroSection />
       <AboutUs />
+      <Location />
       {/* <Services /> */}
-      {/* <Location /> */}
     </div>
   );
 }
