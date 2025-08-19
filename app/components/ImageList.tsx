@@ -8,7 +8,7 @@ export default function ImageList() {
   );
 
   return (
-    <section className="mt-[15px]">
+    <section id="img-list" className="mt-[15px]">
       <h2 className="text-3xl font-bold text-blue-400 mt-[25px] mb-[5px] ml-5">
         DANH SÁCH HÌNH ẢNH
       </h2>

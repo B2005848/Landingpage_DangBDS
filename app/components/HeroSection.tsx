@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { Image } from "@heroui/image";
 import "../styles/HeroSection.css";
 import React from "react";
 import { Form, Input, Button } from "@heroui/react";
@@ -18,22 +18,19 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="bg-white rounded-lg ">
-      <div className="flex flex-col items-center justify-between img-container md:flex-row ">
+    <section className="bg-white rounded-lg">
+      <div className="flex flex-col items-center justify-between img-container md:block">
         <div style={{ marginTop: 5 }} className="div1">
           <Image
             src="/hero_image.webp"
             alt="Hero Image"
-            width={500}
-            height={500}
-            priority
-            className="w-full h-auto border-t-0 border-b-0 border-l-0 hero-image md:rounded-r-2xl"
+            className="w-full h-auto border-t-0 border-b-0 border-l-0 hero-image md:rounded-2xl"
           />
         </div>
 
         {/* form đăng ký */}
         <div
-          className="mt-[15px] p-3 bg-[#D3D3D3] rounded-[14px]"
+          className="mt-[15px] p-3 bg-[#D3D3D3] rounded-[14px] md:m-28"
           data-aos="zoom-out-up"
         >
           <Form

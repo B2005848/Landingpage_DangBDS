@@ -27,7 +27,7 @@ export default function Header() {
 
     {
       label: "Hình ảnh",
-      href: "#gallery",
+      href: "#img-list",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header
-      className="flex items-center justify-between bg-gray-200 shadow-md md:justify-between"
+      className="flex items-center justify-between bg-gray-100 shadow-md md:justify-between md:fixed md:w-full md:bg-gray-300 md:z-50 md:h-15 md:top-0"
       style={{ padding: "5px 15px" }}
     >
       {/* Mobile screen */}
@@ -200,14 +200,14 @@ export default function Header() {
       </div>
 
       {/* Desktop screen */}
-      <nav className="items-center justify-end hidden space-x-4 md:flex">
+      <nav className="items-center justify-end hidden space-x-4 md:flex ">
         {menuItems.map((item) => (
           <a
             key={item.label}
             href={item.href}
             target={item.target}
             rel={item.rel}
-            className="text-gray-900 transition-all duration-300 hover:text-blue-500 :hover:transform hover:scale-105 trnasition-transform"
+            className="text-gray-900 transition-all duration-300 hover:text-blue-500 hover:scale-105 trnasition-transform"
             style={{ marginLeft: "10px", marginRight: "10px" }}
           >
             {item.label}
