@@ -14,8 +14,9 @@ export default function AboutUs() {
           </h1>
           <Image src="/gachchanhr.svg" alt="symboys" width={200} />
         </div>
+
         <div className="text-gray-800">
-          <p className="paragraph">
+          <p data-aos="fade-up" data-aos-duration="1000" className="paragraph">
             Xin chào! Tôi là <strong> Hải Đăng</strong>, hiện đang công tác tại
             <strong> Cara Group</strong> – đơn vị uy tín trong lĩnh vực{" "}
             <strong> bất động sản</strong>. Với niềm đam mê và kinh nghiệm trong
@@ -23,7 +24,7 @@ export default function AboutUs() {
             động sản tối ưu, từ tìm kiếm ngôi nhà mơ ước đến các cơ hội đầu tư
             sinh lời bền vững.
           </p>
-          <p className="paragraph">
+          <p data-aos="fade-up" data-aos-duration="1000" className="paragraph">
             Cara Group mang đến dòng sản phẩm căn hộ cao cấp với{" "}
             <strong>
               thiết kế hiện đại - không gian sống tối ưu - pháp lý minh bạch
@@ -34,7 +35,7 @@ export default function AboutUs() {
               <strong>an cư và đầu tư lâu dài</strong>.
             </strong>
           </p>
-          <p className="paragraph">
+          <p data-aos="fade-up" data-aos-duration="1000" className="paragraph">
             Giá dao động <strong> TỪ 1,7 TỶ/CĂN </strong>(1PN)
           </p>
         </div>
@@ -49,7 +50,8 @@ export default function AboutUs() {
             {/* Diện tích dự án */}
             <div className="flex flex-col items-center gap-2 text-center">
               <Image
-                className="imgReveal"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
                 src="/dientichduan.webp"
                 alt=""
                 width={100}
@@ -63,7 +65,8 @@ export default function AboutUs() {
             {/* Số lượng căn hộ */}
             <div className="flex flex-col items-center gap-2 text-center">
               <Image
-                className="imgReveal"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
                 src="/tongcanho.webp"
                 alt=""
                 width={100}
@@ -78,7 +81,8 @@ export default function AboutUs() {
             {/* Quy mô */}
             <div className="flex flex-col items-center gap-2 text-center">
               <Image
-                className="imgReveal"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
                 src="/quymo.webp"
                 alt=""
                 width={100}
@@ -90,7 +94,8 @@ export default function AboutUs() {
             {/* Diện tích căn hộ */}
             <div className="flex flex-col items-center gap-2 text-center">
               <Image
-                className="imgReveal"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
                 src="/dtcanho.webp"
                 alt=""
                 width={100}

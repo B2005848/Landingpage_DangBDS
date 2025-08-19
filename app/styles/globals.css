@@ -11,31 +11,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-@layer utilities {
-  @keyframes typing {
-    0%,
-    100% {
-      width: 0;
-    }
-    50% {
-      width: 100%;
-    }
-  }
-
-  @keyframes blink {
-    0%,
-    50%,
-    100% {
-      border-color: transparent;
-    }
-    25%,
-    75% {
-      border-color: black;
-    }
-  }
-
-  .animate-typing {
-    animation: typing 4s steps(40, end) infinite, blink 0.7s step-end infinite;
-  }
-}
