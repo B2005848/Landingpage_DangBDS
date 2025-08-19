@@ -32,10 +32,13 @@ export default function HeroSection() {
         </div>
 
         {/* form đăng ký */}
-        <div className="mt-[15px] p-5 bg-[#D3D3D3] rounded-[14px]">
+        <div
+          className="mt-[15px] p-3 bg-[#D3D3D3] rounded-[14px]"
+          data-aos="zoom-out-up"
+        >
           <Form
             onSubmit={onSubmit}
-            className="w-full shadow bg-[#DCDCDC] p-5 rounded-[14px]"
+            className="w-full shadow bg-[#DCDCDC] p-4 rounded-[14px]"
           >
             <h3 className="flex mb-4 text-2xl font-bold text-center">
               ĐĂNG KÍ NHẬN THÔNG TIN

@@ -41,10 +41,10 @@ export default function Location() {
           </AnimatePresence>
         </div>
         <div className="flex flex-col mt-[25px] ml-[5px]">
-          <h2 className="text-3xl font-bold text-blue-400 mt-[15px] mb-[5px] ml-5">
+          <h2 className="text-3xl font-bold text-blue-400 mt-[15px] mb-[5px] ml-5 mr-5">
             VỊ TRÍ & KẾT NỐI VÙNG
           </h2>
-          <p className="mt-[15px] mb-[15px] ml-5 text-gray-800 ">
+          <p className="mt-[15px] mb-[15px]  text-center text-gray-800 ">
             Nằm tại Khu đô thị{" "}
             <strong className="text-blue-400 ">
               <a

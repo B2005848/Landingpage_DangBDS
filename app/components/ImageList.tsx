@@ -9,13 +9,15 @@ export default function ImageList() {
 
   return (
     <section className="mt-[15px]">
-      <h2 className="text-3xl font-bold text-blue-400 mt-[15px] mb-[5px] ml-5">
+      <h2 className="text-3xl font-bold text-blue-400 mt-[25px] mb-[5px] ml-5">
         DANH SÁCH HÌNH ẢNH
       </h2>
 
       <div className="flex flex-col items-center justify-center gap-5 p-5 ">
         {images.map((src, index) => (
           <Image
+            data-aos="flip-up"
+            data-aos-duration="2000"
             key={index}
             alt={`Image ${index + 1}`}
             src={src}
