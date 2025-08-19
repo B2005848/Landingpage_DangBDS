@@ -15,7 +15,7 @@ export default function AboutUs() {
           <Image src="/gachchanhr.svg" alt="symboys" width={200} />
         </div>
 
-        <div className="text-gray-800">
+        <div className="text-gray-800 md:text-center md:m-16">
           <p data-aos="fade-up" data-aos-duration="1000" className="paragraph">
             Xin chào! Tôi là <strong> Hải Đăng</strong>, hiện đang công tác tại
             <strong> Cara Group</strong> – đơn vị uy tín trong lĩnh vực{" "}
@@ -25,9 +25,11 @@ export default function AboutUs() {
             sinh lời bền vững.
           </p>
           <p data-aos="fade-up" data-aos-duration="1000" className="paragraph">
-            Cara Group mang đến dòng sản phẩm căn hộ cao cấp với{" "}
+            <strong className="text-blue-500"> Cara Group </strong> mang đến
+            dòng sản phẩm căn hộ cao cấp với{" "}
             <strong>
-              thiết kế hiện đại - không gian sống tối ưu - pháp lý minh bạch
+              thiết kế hiện đại - không gian sống tối ưu -{" "}
+              <span className="text-red-500"> pháp lý minh bạch</span>
             </strong>
             . Dự án được xây dưng trên quỹ đất{" "}
             <strong>
@@ -40,7 +42,7 @@ export default function AboutUs() {
           </p>
         </div>
         <hr className="text-gray-500 mt-[15px] mb-[15px]" />
-        <h2 className="text-3xl font-bold text-blue-400 mt-[15px] mb-[15px] ml-5">
+        <h2 className="text-3xl font-bold text-blue-400 mt-[15px] mb-[15px] ml-5 md:text-center">
           CẤU TRÚC VÀ SẢN PHẨM
         </h2>
 

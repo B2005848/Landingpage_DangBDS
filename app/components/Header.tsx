@@ -111,7 +111,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header
-      className="flex items-center justify-between bg-gray-100 shadow-md md:justify-between md:fixed md:w-full md:bg-gray-300 md:z-50 md:h-15 md:top-0"
+      className="flex items-center justify-between bg-gray-100 shadow-md md:justify-between md:fixed md:w-full md:rounded-b-lg md:z-50 md:h-15 md:top-0"
       style={{ padding: "5px 15px" }}
     >
       {/* Mobile screen */}

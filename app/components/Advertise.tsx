@@ -8,7 +8,7 @@ export default function Advertise() {
       style={{
         paddingBlock: "8px",
       }}
-      className="py-2 overflow-hidden text-sm text-white bg-blue-500 whitespace-nowrap md:mt-14"
+      className="py-2 overflow-hidden text-sm text-white bg-blue-500 whitespace-nowrap md:mt-16"
     >
       <div className="marquee">
         <span>{text}</span>
