@@ -24,7 +24,7 @@ export default function HeroSection() {
           <Image
             src="/hero_image.webp"
             alt="Hero Image"
-            className="w-full h-auto border-t-0 border-b-0 border-l-0 hero-image md:rounded-2xl"
+            className="w-full h-auto border-t-0 border-b-0 border-l-0 hero-image md:rounded-2xl "
           />
         </div>
 
